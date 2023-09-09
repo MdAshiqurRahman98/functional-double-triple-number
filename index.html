@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double & Triple Numbers</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-3xl text-center font-semibold my-3">Double & Triple Numbers</h1>
+    </header>
+
+    <main>
+        <section class="ml-7">
+            <h3 class="text-xl font-medium mt-7">Please, provide a number</h3>
+            <br>
+            <input id="input-field" type="number" placeholder="Enter a number" class="input input-bordered w-full max-w-xs block" />
+            <br>
+            <button id="btn-double" class="btn btn-primary normal-case mr-1">Double</button>
+            <button id="btn-triple" class="btn btn-primary normal-case">Triple</button>
+            <p class="text-xl font-medium my-9">Output: <span id="output"></span></p>
+        </section>
+    </main>
+    
+    <script src="./js/utilities.js"></script>
+    <script src="./js/double-number.js"></script>
+    <script src="./js/triple-number.js"></script>
+</body>
+</html>
